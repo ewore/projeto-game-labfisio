@@ -1,0 +1,350 @@
+/* estilo das paginas em geral */
+
+html{   
+        width: 100%;
+        height: 100%;
+
+}
+
+body{
+        width: auto;
+        height: auto;
+        margin: 20px;
+        background-color: #62f;
+}
+
+.cabecalho{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;          
+}
+
+.linhaMenu{
+        width: 400px;
+        color: #fff;
+}
+
+.imgCabecalho{
+        width: 300px;
+        height: 150px;
+        margin-top: 20px;
+}
+
+#menuBox{    
+        width: 410px;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 10pt;
+        color: #fafafa;
+}
+
+a{text-decoration: none;}
+a:active{color:#fafafa;}
+a:visited{color:#fafafa;}
+a:hover{color: #ff6600; cursor: pointer;}
+
+/* estilo da pagina home */
+
+
+
+#textosPaginaHome{
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: center;
+}
+
+.boxTextoHome {
+        width: 500px;
+        height: 400px;
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: 0 0 50px #000;
+        line-height: 20px;
+        font-size: 9pt;
+        text-align: center;
+        font-weight: bolder;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#detalhesJogo{
+       background-color: #fafafa;
+       color: #ff6600;
+}
+
+#historiaJogo{
+        background-color: #ff6600;
+        color: #fafafa;
+}
+
+/* estilo da pagina desenvolvedor */
+
+#textosPaginaDesenvolvedor{
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+}
+
+#dados{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 9pt;
+        text-align: center;
+        font-weight: bolder;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.dados{ 
+        margin-bottom: 20px; 
+        padding: 15px;
+        border-radius: 25px;
+        box-shadow: 0 0 20px #000;
+        background-color: #ff6600;
+        color: #fafafa;
+}
+
+#resumo{
+        width: 500px;
+        height: 400px;
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: 0 0 25px #000;
+        background-color: #fafafa;
+        line-height: 20px;
+        font-size: 9pt;
+        text-align: center;
+        font-weight: bolder;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#redesSociais{
+        margin-top: 20px;
+        margin-left: 370px;
+        display: flex;
+        justify-content: center;
+}
+
+#email{
+        margin-left: 10px;
+        margin-right: 5px;
+}
+
+#linkedin{
+        margin-left: 5px;
+        margin-right: 10px;
+}
+/* estilo da pagina game */
+
+#conteudoTela{
+        width: auto;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+
+#controleJogo{
+        width: auto;
+        margin: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+}
+
+#vidas{
+        margin: 20px;
+        display: none;
+}
+
+#vida1{
+        display: unset;
+}
+#vida2{
+        display: unset;
+}
+#vida3{
+        display: unset;
+}
+
+#cronometroPartida{
+        margin-right: 75px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: #fcfcfc;
+}
+
+#canvas{ 
+        display: none;
+        margin-top: 20px;
+        background-color: #fff;
+        border-radius: 20px;
+}
+
+#preJogo{
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-around;
+        align-items: center;
+}
+
+#instrucoes {
+        width: auto;
+        height: auto;
+        margin-bottom: 100px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        line-height: 20px;
+        
+}
+
+#explicaJogo{
+        width: 350px;
+        height: auto;
+        margin-right: 300px;
+        padding: 15px;
+        border-radius: 20px;
+        box-shadow: 0 0 50px #000;
+        background-color: #ff6600;
+        font-size: 9pt;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: #fafafa;
+        text-align: left;
+        font-weight: bolder;
+}
+
+#teclasJogo{
+        width: 350px;
+        height: auto;
+        margin-left: 300px;
+        padding: 15px;
+        border-radius: 20px;
+        box-shadow: 0 0 50px #000;
+        background-color: #fafafa;
+        font-size: 9pt;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-align: center;
+}
+
+#iniciarJogo{
+        color: #fff;
+        font-size: 15pt;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        -webkit-animation:mudaTamanho 1s infinite alternate;
+}
+
+#controlePerguntas{
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+
+#duasAlternativas{
+        display: none;
+}
+
+#quatroAlternativas{
+        display: none;
+}
+
+#perguntas{
+        font-size: 20pt;
+        text-align: center;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: #fafafa;
+}
+
+.botoes{
+        width: 200px;
+        height: 50px;
+        margin: 20px;;
+        border-radius: 20px;
+        background-color: #fcfcfc;       
+}
+
+#resultadoGame{
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        display: none;
+        font-size: 60pt;
+        text-align: center;
+        color: #fafafa;
+}
+
+@-webkit-keyframes mudaTamanho {
+        0% {
+      
+                font-size: 15pt;
+        }
+      
+        10% {
+      
+                font-size: 15.1pt;
+        }
+      
+        20% {
+      
+                font-size: 15.2pt;
+        }
+      
+        30% {
+      
+                font-size: 15.3pt;
+        }
+      
+        40% {
+      
+                font-size: 15.4pt;
+        }
+      
+        50% {
+      
+                font-size: 15.5pt;
+        }
+      
+        60% {
+      
+                font-size: 15.6pt;
+        }
+      
+        70% {
+      
+                font-size: 15.7pt;
+        }
+        80% {
+      
+                font-size: 15.8pt;
+        }
+      
+        90% {
+      
+                font-size: 15.9pt;
+        }
+      
+        100% {
+      
+                font-size: 16pt;
+      }
+}

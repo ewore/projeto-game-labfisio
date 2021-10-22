@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+
+	<head>
+		<meta charset='UTF-8'>
+		<meta name='author' content='Erick Moreno'>
+		<title>game | LabFisio</title>
+		<link rel='stylesheet' href='../style/style.css'/>
+		<link rel='icon' href='../img/icone.png'>
+	</head>
+
+	<body id='bodyGame'>
+	
+	<div id ='cabecalhoGame' class='cabecalho'>
+		<div id='menuGame'>
+			<hr class='linhaMenu'/>
+            <div id='menuBox'>
+                <h3> <a href='home.html' target='_self'>home</a> </h3>
+                <h3> <a href='desenvolvedor.html' target='_self'>desenvolvedor</a> </h3>
+                <h3> <a href='game.html' target='_self'>game</a> </h3>
+            </div>
+        	<hr class='linhaMenu'/>
+		</div>
+		<img class='imgCabecalho' src='../img/logogame.png'>
+	</div>	
+		
+	<div id= 'conteudoTela'>
+		<div id='preJogo'>
+			<div id='instrucoes'>
+				<div id= 'explicaJogo'>
+					<h3>Instruções:</h3>
+					<p>
+						Você terá 4 minutos para vencer um labirinto com 11 perguntas sobre Anatomia. 
+						O mapa contém 11 pequenos quadrados espalhados, cada quadrado se refere à uma pergunta. Você precisa 
+						coletar esses quadrados para responder as perguntas, a cada quadrado coletado irá aparecer uma pergunta 
+						com duas ou quatro alernativas, sendo só uma delas a correta. Além do tempo que você precisa controlar, há também 
+						3 corações que são referentes as suas tentativas de resposta, a cada resposta errada um coração irá desaparecer.
+						Sendo assim, caso os corações acabem ou o tempo limite esgote será GAME OVER. Para ganhar você precisa responder as
+						11 perguntas antes que o tempo acabe. Vamos lá, confio em você! 
+					</p>
+				</div>
+				<div id= 'teclasJogo'>
+					<h3>Para mover-se pelo labirinto é simples, use as setas do seu teclado:</h3>
+					<img src='../img/setas.png'>
+				</div>
+			</div>
+			<h3 id ='iniciarJogo'> Pressione i para iniciar o jogo </h3>
+		</div>
+
+		<div id='controleJogo'>
+			<div id='vidas'>
+				<img id= 'vida1' src='../img/life.png'>
+				<img id= 'vida2' src='../img/life.png'>
+				<img id= 'vida3' src='../img/life.png'>
+			</div>
+
+			<h4 id='cronometroPartida'></h4>
+
+			<div id='controlePerguntas'>
+				<h3 id='perguntas'></h3>
+				<div id= 'duasAlternativas'>
+					<input type='button' id= 'a1' class='botoes' value='' onclick='tentarResposta(this.value)'>
+					<input type='button' id= 'a2' class='botoes' value='' onclick='tentarResposta(this.value)'>
+				</div>
+			
+				<div id= 'quatroAlternativas'>
+					<input type='button' id= 'a01' class='botoes' value='' onclick='tentarResposta(this.value)'>
+					<input type='button' id= 'a02' class='botoes' value='' onclick='tentarResposta(this.value)'>
+					<input type='button' id= 'a03' class='botoes' value='' onclick='tentarResposta(this.value)'>
+					<input type='button' id= 'a04' class='botoes' value='' onclick='tentarResposta(this.value)'>
+				</div>
+			</div>
+		</div>
+		<h1 id='resultadoGame'></h1>
+		<img id= 'imgResultado' src=''>
+		<canvas id = 'canvas'width='800' height='500'></canvas>
+	</div>
+	<script src='../js/game.js'></script>
+	</body>
+
+</html>
